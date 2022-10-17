@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -48,6 +49,8 @@ header {
   height: 84px;
   width: 100%;
   background-color: white;
+  position: sticky;
+  top: 0;
 }
 
 header .container {
@@ -95,7 +98,6 @@ header .container nav .nav-button a {
 /* Hero Section Styles */
 .hero-section {
   width: 100%;
-  height: 700px;
   background-color: #dceaf5;
 }
 
@@ -112,7 +114,7 @@ header .container nav .nav-button a {
 .hero-section .content h2 {
   font-size: 4rem;
   line-height: 72px;
-  letter-spacing: -3px;
+  letter-spacing: -0.03em;
   font-weight: 600;
   margin-bottom: 15px;
   margin-top: 0;
@@ -159,20 +161,14 @@ header .container nav .nav-button a {
 /* Help Section Styles */
 .help-section {
   width: 100%;
-  border: 1px solid black;
-}
-
-.help-section .container {
-  height: 740px;
-  margin: 96px auto;
-  border: 1px solid black;
+  padding: 96px 0;
 }
 
 .help-section .container h2 {
   font-size: 3rem;
   font-weight: 600;
   line-height: 56px;
-  letter-spacing: -3px;
+  letter-spacing: -0.03em;
   width: 50%;
   margin-top: 0;
   margin-bottom: 0;
@@ -191,9 +187,190 @@ header .container nav .nav-button a {
 .help-section .container .articles {
   display: flex;
   width: 100%;
-  justify-content: space-between;
 }
 
 .help-section .container .articles article {
-  width: 40%;
+  width: 32%;
+  margin-right: 40px;
+}
+
+.help-section .container .articles article:last-child {
+  margin-right: 0;
+}
+
+.help-section .container .articles article img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.help-section .container .articles article h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 25.56px;
+  letter-spacing: -0.03em;
+  margin-top: 33px;
+  margin-bottom: 17px;
+}
+
+.help-section .container .articles article p {
+  font-weight: 500;
+  line-height: 28px;
+  color: #5b5b5b;
+  margin-top: 0;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.help-section .container .articles article a {
+  font-weight: 500;
+  line-height: 17px;
+  color: #f58a07;
+}
+
+.help-section .container .articles article a::after {
+  content: "\2192";
+  margin-left: 8px;
+}
+
+/* Feature Section Styles */
+.feature-section {
+  background-color: #edf7ff;
+}
+
+.feature-section .container {
+  padding: 96px 0;
+}
+
+.feature-section .titles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 96px; */
+  margin-bottom: 64px;
+}
+
+.feature-section .titles h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  width: 46%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.feature-section .titles p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.feature-section .feature-cards {
+  display: flex;
+  width: 100%;
+  /* padding-bottom: 96px; */
+}
+
+.feature-section .feature-cards .card {
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 38px;
+  width: 33%;
+  padding: 35px;
+}
+
+.feature-section .feature-cards .card:last-child {
+  margin-right: 0;
+}
+
+.feature-section .feature-cards .card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+}
+
+.feature-section .feature-cards .card p {
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* About Section Styles */
+.about-section {
+  padding: 96px 0;
+}
+
+.about-section .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-section .container .text,
+.about-section .container .image {
+  width: 47%;
+}
+
+.about-section .container .image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.about-section .container .text h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  margin-top: 67px;
+  margin-bottom: 32px;
+}
+
+.about-section .container .text p {
+  width: 86%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #5b5b5b;
+  margin-bottom: 48px;
+  margin-top: 0;
+}
+
+.about-section .container .text .about-features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-section .container .text .about-features .feature {
+  width: 45%;
+}
+
+.about-section .container .text .about-features .feature h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: #f58a07;
+}
+
+.about-section .container .text .about-features .feature h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+}
+
+.about-section .container .text .about-features .feature p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  line-height: 28px;
+  color: #5b5b5b;
+  width: 100%;
 }
