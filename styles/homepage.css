@@ -1,13 +1,14 @@
 /* Hero Section Styles */
 .hero {
-  width: 100%;
   background-color: #dceaf5;
+  height: 700px;
 }
 
 .hero .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100%;
 }
 
 .hero .content {
@@ -15,7 +16,7 @@
 }
 
 .hero .content h2 {
-  font-size: 4rem;
+  font-size: 64px;
   line-height: 72px;
   letter-spacing: -0.03em;
   font-weight: 600;
@@ -41,9 +42,8 @@
 
 .hero .content .logos .logo-title {
   font-weight: 400;
-  font-size: 1.125rem;
-  color: #394149;
-  opacity: 0.5;
+  font-size: 18px;
+  color: rgba(57, 65, 73, 0.5);
   margin-bottom: 18px;
 }
 
