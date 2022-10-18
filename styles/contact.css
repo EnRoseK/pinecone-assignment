@@ -1,0 +1,139 @@
+/* Header Styles */
+.contact-header {
+  padding-top: 108px;
+  padding-bottom: 64px;
+}
+
+.contact-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-header .container .left {
+  width: 45%;
+}
+
+.contact-header .container .right {
+  width: 50%;
+}
+
+.contact-header .container .left h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.03em;
+}
+
+.contact-header .container .left p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.contact-header .container .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-header .container .right .location,
+.contact-header .container .right .contact {
+  width: 45%;
+}
+
+.contact-header .container .right h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #0d1317;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+.contact-header .container .right p,
+.contact-header .container .right ul li {
+  color: #5b5b5b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 100%;
+}
+
+.contact-header .container .right p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contact-header .container .right ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.contact-header .container .right ul li {
+  margin-bottom: 4px;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  padding-bottom: 128px;
+}
+
+.contact-section .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-section .container form {
+  width: 45%;
+}
+
+.contact-section .container .map {
+  width: 50%;
+}
+
+.contact-section .container form input {
+  width: 100%;
+  border: none;
+  padding: 18px 32px;
+  margin-bottom: 16px;
+  background-color: rgba(210, 218, 237, 0.17);
+  border-radius: 27px;
+}
+
+.contact-section .container form textarea {
+  width: 100%;
+  height: 160px;
+  resize: none;
+  padding: 32px;
+  border: none;
+  background-color: rgba(210, 218, 237, 0.17);
+  border-radius: 27px;
+  margin-bottom: 32px;
+}
+
+.contact-section .container form input::placeholder,
+.contact-section .container form textarea::placeholder {
+  color: #9c9c9c;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.contact-section .container form .primary-button {
+  display: inline-block;
+}
+
+.contact-section .container .map img {
+  width: 100%;
+  border-radius: 20px;
+  height: 370px;
+}

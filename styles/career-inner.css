@@ -1,0 +1,150 @@
+/* Header Styles */
+.career-header {
+  margin-top: 108px;
+  margin-bottom: 64px;
+}
+
+.career-header .container {
+  width: 100%;
+}
+
+.career-header .container h2 {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+
+.career-header .container .job-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-header .container .job-desc .job-left {
+  width: 60%;
+}
+
+.career-header .container .job-desc .job-right {
+  width: 30%;
+}
+
+.career-header .container .job-desc h4 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+.career-header .container .job-desc p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #5b5b5b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 84%;
+}
+
+/* Career Details */
+.career-details .container {
+  background-color: rgba(193, 228, 255, 0.3);
+  border-radius: 20px;
+  padding: 68px 150px 68px 68px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-details .container ul {
+  margin-top: 4px;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  width: 30%;
+}
+
+.career-details .container ul li {
+  margin-bottom: 40px;
+  color: #0d1317;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+.career-details .container ul .active {
+  color: #f58a07;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.career-details .container .details {
+  width: 90%;
+}
+
+.career-details .container .details p {
+  color: #5b5b5b;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Apply Section Styles */
+.apply {
+  padding: 128px 0;
+}
+
+.apply .container h2 {
+  margin-top: 0;
+  margin-bottom: 51px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #0d1317;
+}
+
+.apply .container form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.apply .container form input {
+  width: 49%;
+  margin-bottom: 24px;
+  border: none;
+  background-color: rgba(210, 218, 237, 0.17);
+  border-radius: 27px;
+  padding: 18px 32px;
+}
+
+.apply .container form input::placeholder,
+.apply .container form textarea::placeholder {
+  color: #9c9c9c;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.apply .container form input:nth-child(3)::placeholder {
+  font-style: italic;
+}
+
+.apply .container form textarea {
+  width: 100%;
+  height: 215px;
+  margin-bottom: 32px;
+  border: none;
+  background-color: rgba(210, 218, 237, 0.17);
+  border-radius: 27px;
+  padding: 29px 32px;
+  resize: none;
+}
+
+.apply .container form .primary-button {
+  border-radius: 31px;
+}

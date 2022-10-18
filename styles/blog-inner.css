@@ -1,0 +1,70 @@
+.post-inner {
+  margin: 110px 0;
+}
+
+.post-inner .container img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.post-inner .container .content {
+  padding: 0 264px;
+}
+
+.post-inner .container .content .author {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.post-inner .container .content .author .author-info {
+  width: 37%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-inner .container .content .author .author-info .author-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background: url('../images/author.png');
+}
+
+.post-inner .container .content .author h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #394149;
+  opacity: 0.87;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.post-inner .container .content h2 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.post-inner .container .content h3 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #0d1317;
+}
+
+.post-inner .container .content p {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #5b5b5b;
+  font-weight: 500;
+  line-height: 28px;
+}
