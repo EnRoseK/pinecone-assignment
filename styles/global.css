@@ -83,7 +83,7 @@ header .container nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 50%;
 }
 
 header .container nav ul {
@@ -92,6 +92,9 @@ header .container nav ul {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 header .container nav ul li a {
