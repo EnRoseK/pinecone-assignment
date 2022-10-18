@@ -71,9 +71,12 @@ header .container {
 }
 
 header .container .logo {
-  color: #063255;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+header .container .logo a {
+  color: #063255;
 }
 
 header .container nav {
@@ -437,4 +440,5 @@ footer .container .bottom ul li a {
 .blog .container .articles article a::after {
   content: '\2192';
   margin-left: 8px;
+  font-size: 18px;
 }

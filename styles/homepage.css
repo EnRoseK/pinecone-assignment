@@ -128,6 +128,7 @@
 .help .container .articles article a::after {
   content: '\2192';
   margin-left: 8px;
+  font-size: 18px;
 }
 
 /* Feature Section Styles */
@@ -354,6 +355,7 @@
 .service .container .content .text a::after {
   content: '\2192';
   margin-left: 8px;
+  font-size: 18px;
 }
 
 .service .container .content .image {

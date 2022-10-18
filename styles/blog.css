@@ -73,6 +73,7 @@
 .blog-header .container .text a::after {
   content: '\2192';
   margin-left: 8px;
+  font-size: 18px;
 }
 
 .blog-header .container .image {
@@ -145,4 +146,5 @@
 .posts .container .articles article .content a::after {
   content: '\2192';
   margin-left: 8px;
+  font-size: 18px;
 }
