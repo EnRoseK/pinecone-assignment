@@ -10,43 +10,31 @@
   align-items: center;
 }
 
-.careers-header .container .text {
+.careers-header .text {
   width: 50%;
 }
 
-.careers-header .container .text h2 {
+.careers-header .text h2 {
   font-size: 64px;
-  font-weight: 600;
   line-height: 72px;
-  letter-spacing: -0.03em;
-  margin-top: 0;
   margin-bottom: 24px;
 }
 
-.careers-header .container .text p {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 30px;
-  color: #5b5b5b;
-  margin-top: 0;
+.careers-header .text p {
   margin-bottom: 24px;
 }
 
-.careers-header .container .text .primary-button {
-  display: inline-block;
-}
-
-.careers-header .container .image {
+.careers-header .image {
   width: 47%;
   height: 650px;
-  background: url('../images/career-header.png');
+  background: url("../images/career-header.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
   background-position: center;
 }
 
-.careers-header .container .image .overlay {
+.careers-header .image .overlay {
   width: 25%;
   height: 100%;
   background-color: #f58a07;
@@ -59,52 +47,36 @@
   padding-bottom: 128px;
 }
 
-.careers .container h2 {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 56px;
-  letter-spacing: -0.03em;
-  margin-top: 0;
+.careers h2 {
   margin-bottom: 64px;
 }
 
-.careers .container .positions {
+.careers .positions {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 40px;
 }
 
-.careers .container .positions article {
+.careers .positions article {
   width: 31%;
   background-color: rgba(193, 228, 255, 0.3);
   border-radius: 20px;
-  margin-bottom: 40px;
   padding: 32px 40px;
 }
 
-.careers .container .positions article h3 {
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 30px;
-  letter-spacing: -0.03em;
-  margin-top: 0;
+.careers .positions article h3 {
   margin-bottom: 8px;
 }
 
-.careers .container .positions article p {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 28px;
+.careers .positions article p {
   color: #394149;
   opacity: 0.6;
-  margin-top: 0;
   margin-bottom: 32px;
 }
 
-.careers .container .positions article > a {
+.careers .positions article a {
   font-size: 18px;
   font-weight: 400;
-  line-height: 19px;
   color: #f58a07;
 }

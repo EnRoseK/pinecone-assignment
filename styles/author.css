@@ -1,0 +1,30 @@
+.author {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.author .author-info {
+  width: 37%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author .author-info .author-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background: url("../images/author.png");
+}
+
+.author h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #394149;
+  opacity: 0.87;
+  line-height: 32px;
+  font-weight: 400;
+}

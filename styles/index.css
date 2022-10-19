@@ -18,19 +18,11 @@
 .hero .content h2 {
   font-size: 64px;
   line-height: 72px;
-  letter-spacing: -0.03em;
-  font-weight: 600;
   margin-bottom: 15px;
-  margin-top: 0;
 }
 
 .hero .content p {
-  color: #5b5b5b;
-  margin-top: 0;
   margin-bottom: 32px;
-  font-weight: 500;
-  line-height: 30px;
-  font-size: 18px;
 }
 
 .hero .content .buttons {
@@ -40,15 +32,15 @@
   margin-bottom: 55px;
 }
 
-.hero .content .logos .logo-title {
-  font-weight: 400;
-  font-size: 18px;
+.hero .content .logos p {
   color: rgba(57, 65, 73, 0.5);
   margin-bottom: 18px;
 }
 
-.hero .content .logos img {
-  margin-right: 45px;
+.hero .content .logo-imgs {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
 }
 
 .hero .image {
@@ -66,69 +58,49 @@
   padding: 96px 0;
 }
 
-.help .container h2 {
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 56px;
-  letter-spacing: -0.03em;
+.help h2 {
   width: 50%;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
-.help .container p {
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 30px;
-  color: #5b5b5b;
+.help p {
   width: 55%;
   margin-top: 27px;
   margin-bottom: 60px;
 }
 
-.help .container .articles {
+.help .articles {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  gap: 40px;
 }
 
-.help .container .articles article {
+.help .articles article {
   width: 31%;
 }
 
-.help .container .articles article img {
+.help .articles article img {
   width: 100%;
   border-radius: 20px;
 }
 
-.help .container .articles article h3 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 25.56px;
-  letter-spacing: -0.03em;
+.help .articles article h3 {
   margin-top: 33px;
   margin-bottom: 17px;
 }
 
-.help .container .articles article p {
-  font-weight: 500;
+.help .articles article p {
+  font-size: 16px;
   line-height: 28px;
-  color: #5b5b5b;
-  margin-top: 0;
   margin-bottom: 24px;
   width: 100%;
 }
 
-.help .container .articles article a {
-  font-weight: 500;
-  line-height: 17px;
+.help .articles article a {
   color: #f58a07;
 }
 
-.help .container .articles article a::after {
-  content: '\2192';
+.help .articles article a::after {
+  content: "\2192";
   margin-left: 8px;
-  font-size: 18px;
 }
 
 /* Feature Section Styles */
@@ -146,27 +118,18 @@
 
 .feature .titles h2 {
   font-size: 36px;
-  font-weight: 600;
   line-height: 44px;
-  letter-spacing: -0.03em;
   width: 46%;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .feature .titles p {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 30px;
   width: 50%;
-  margin-top: 0;
-  margin-bottom: 0;
+  color: #1d3444;
 }
 
 .feature .feature-cards {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  gap: 40px;
 }
 
 .feature .feature-cards .card {
@@ -177,42 +140,40 @@
 }
 
 .feature .feature-cards .card h3 {
-  font-size: 24px;
   font-weight: 600;
-  line-height: 26px;
-  letter-spacing: -0.03em;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 
 .feature .feature-cards .card p {
-  font-weight: 500;
+  font-size: 16px;
   line-height: 28px;
 }
 
 /* About Section Styles */
 .about {
-  padding: 96px 0;
+  padding-top: 96px;
 }
 
 .about .container {
   display: flex;
   justify-content: space-between;
-  /* margin: 96px auto;  */
 }
 
-.about .container .text {
+.about .text,
+.about .image {
   width: 47%;
 }
 
-.about .container .image {
-  background: url('../images/about-image.png');
+.about .image {
+  background: url("../images/about-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
-  width: 47%;
   height: 670px;
 }
 
-.about .container .image .overlay {
+.about .image .overlay {
   background-color: #f58a07;
   mix-blend-mode: multiply;
   height: 100%;
@@ -220,153 +181,125 @@
   border-radius: 20px 0 0 20px;
 }
 
-.about .container .text h2 {
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 56px;
-  letter-spacing: -0.03em;
+.about .text h2 {
   margin-top: 67px;
   margin-bottom: 32px;
 }
 
-.about .container .text p {
+.about .text p {
   width: 86%;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 30px;
-  color: #5b5b5b;
   margin-bottom: 48px;
-  margin-top: 0;
 }
 
-.about .container .text .about-features {
+.about .text .about-features {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 26px;
 }
 
-.about .container .text .about-features article {
-  width: 45%;
+.about .text .about-features article {
+  width: 50%;
 }
 
-.about .container .text .about-features article h2 {
-  margin-top: 0;
+.about .text .about-features article h2 {
   margin-bottom: 16px;
-  font-family: 'Inter', sans-serif;
+  margin-top: 0;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 50px;
   color: #f58a07;
 }
 
-.about .container .text .about-features article h3 {
-  margin-top: 0;
+.about .text .about-features article h3 {
   margin-bottom: 16px;
-  font-size: 24px;
   font-weight: 600;
-  line-height: 26px;
-  letter-spacing: -0.03em;
 }
 
 .about .container .text .about-features article p {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 500;
+  font-size: 16px;
   line-height: 28px;
-  color: #5b5b5b;
   width: 100%;
+  margin-bottom: 0;
 }
 
 /* Service Section Styles */
 .service {
-  padding-bottom: 128px;
+  padding: 128px;
+  position: relative;
+}
+
+.service .ribbon {
+  position: absolute;
+  top: 112px;
+  right: 455px;
 }
 
 .service .container {
   background-color: #edf7ff;
   border-radius: 20px;
   padding: 48px;
-  position: relative;
 }
 
-.service .container .ribbon {
-  position: absolute;
-  top: -15px;
-  right: -15px;
-}
-
-.service .container .tabs {
+.service .tabs {
   display: flex;
   width: 50%;
   justify-content: space-between;
   margin-bottom: 80px;
 }
 
-.service .container .tabs .tab {
+.service .tabs .tab {
   padding: 8px 24px;
   border: 1px solid #a8bccc;
   border-radius: 31px;
   color: rgba(6, 50, 85, 0.3);
   font-weight: 600;
-  line-height: 24px;
 }
 
-.service .container .tabs .active {
+.service .tabs .active {
   color: #f58a07;
   background-color: white;
   border: none;
 }
 
-.service .container .content {
+.service .content {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 
-.service .container .content .text,
-.service .container .content .image {
+.service .content .text,
+.service .content .image {
   width: 45%;
 }
 
-.service .container .content .text h2 {
-  margin-top: 0;
+.service .content .text h2 {
   margin-bottom: 25px;
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 56px;
-  letter-spacing: -0.03em;
 }
 
-.service .container .content .text p {
-  margin-top: 0;
+.service .content .text p {
   margin-bottom: 40px;
-  color: #5b5b5b;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
   width: 95%;
 }
 
-.service .container .content .text a {
+.service .content .text a {
   color: #f58a07;
-  font-weight: 500;
 }
 
-.service .container .content .text a::after {
-  content: '\2192';
+.service .content .text a::after {
+  content: "\2192";
   margin-left: 8px;
   font-size: 18px;
 }
 
-.service .container .content .image {
-  background: url('../images/team.png');
+.service .content .image {
+  background: url("../images/team.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 472px;
   border-radius: 20px;
 }
 
-.service .container .content .image .overlay {
+.service .content .image .overlay {
   width: 25%;
   height: 100%;
   background-color: #f58a07;
@@ -381,10 +314,10 @@
 
 .cta .image {
   width: 50%;
-  background: url('../images/experience-image.png');
+  background: url("../images/experience-image.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 530px;
+  height: 525px;
 }
 
 .cta .text {
@@ -394,16 +327,7 @@
 }
 
 .cta .text h2 {
-  margin-top: 0;
   margin-bottom: 40px;
   color: white;
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 56px;
-  letter-spacing: -0.03em;
   width: 95%;
-}
-
-.cta .text .secondary-button {
-  display: inline-block;
 }

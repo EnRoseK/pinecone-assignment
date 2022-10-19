@@ -1,0 +1,119 @@
+footer {
+  background-color: #063255;
+  color: white;
+  padding: 80px 0;
+  position: relative;
+}
+
+footer a {
+  color: white;
+}
+
+footer .shape-1 {
+  width: 53px;
+  height: 287px;
+  background-color: #f58a07;
+  border-radius: 20px 0 0 20px;
+  position: absolute;
+  top: 38px;
+  right: 0;
+}
+
+footer .shape-2 {
+  width: 53px;
+  height: 144px;
+  background-color: #f58a07;
+  border-radius: 0 20px 0 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+footer .top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+footer .top .left {
+  width: 33%;
+}
+
+footer .top .subscribe {
+  width: 25%;
+}
+
+footer .top .company,
+footer .top .connect {
+  width: 18%;
+}
+
+footer .top .left h3 {
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+footer .top .left h2 {
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 32px;
+}
+
+footer .top .left .socials img {
+  width: 20px;
+  height: 20px;
+  margin-right: 18px;
+}
+
+footer .top .company h3,
+footer .top .connect h3,
+footer .top .subscribe h3 {
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer .top .company ul li,
+footer .top .connect ul li {
+  margin-bottom: 16px;
+}
+
+footer .top .company ul li:last-child,
+footer .top .connect ul li:last-child {
+  margin-bottom: 0;
+}
+
+footer .top .connect ul li {
+  font-weight: 500;
+}
+
+footer .top .subscribe input {
+  width: 100%;
+  border-radius: 31px;
+  padding: 18px 32px;
+  margin-bottom: 16px;
+}
+
+footer .top .subscribe input::placeholder {
+  color: #9c9c9c;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+footer .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .bottom p {
+  color: white;
+  font-size: 16px;
+}
+
+footer .bottom ul {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
