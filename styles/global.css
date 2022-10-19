@@ -77,12 +77,3 @@ p {
   color: #f58a07;
   font-weight: 600;
 }
-
-.bg-button {
-  padding: 18px 32px;
-  display: inline-block;
-}
-
-.bg-button a {
-  font-weight: 600;
-}
