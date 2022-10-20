@@ -6,25 +6,23 @@
 
 .blog-header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 102px;
 }
 
 .blog-header .text,
 .blog-header .image {
-  width: 50%;
+  width: 49%;
 }
 
 .blog-header .text h2 {
   font-size: 64px;
   line-height: 72px;
   margin-bottom: 24px;
-  width: 90%;
 }
 
 .blog-header .text p {
   margin-bottom: 24px;
-  width: 90%;
 }
 
 .blog-header .text a {
@@ -38,7 +36,6 @@
 .blog-header .text a::after {
   content: '\2192';
   margin-left: 8px;
-  font-size: 18px;
 }
 
 .blog-header .image {

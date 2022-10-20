@@ -7,12 +7,13 @@
 .hero .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 53px;
   height: 100%;
 }
 
-.hero .content {
-  width: 48%;
+.hero .content,
+.hero img {
+  width: 49%;
 }
 
 .hero .content h2 {
@@ -27,13 +28,12 @@
 
 .hero .content .buttons {
   display: flex;
-  width: 65%;
-  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
   margin-bottom: 55px;
 }
 
 .bg-button {
-  padding: 18px 32px;
   font-weight: 600;
 }
 
@@ -48,18 +48,12 @@
 
 .hero .content .logo-imgs {
   display: flex;
-  width: 90%;
-  justify-content: space-between;
+  gap: 45px;
 }
 
-.hero .image {
-  width: 52%;
+.hero img {
   align-self: end;
-}
-
-.hero .image img {
-  width: 100%;
-  margin-bottom: -6px;
+  margin-bottom: 0;
 }
 
 /* Help Section Styles */
@@ -123,20 +117,19 @@
 }
 
 .feature .titles {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
   margin-bottom: 64px;
 }
 
 .feature .titles h2 {
   font-size: 36px;
   line-height: 44px;
-  width: 46%;
+  width: 49%;
 }
 
 .feature .titles p {
-  width: 50%;
+  width: 49%;
   color: #1d3444;
 }
 
@@ -170,12 +163,13 @@
 
 .about .container {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 47px;
 }
 
 .about .text,
 .about .image {
-  width: 47%;
+  width: 49%;
 }
 
 .about .image {
@@ -186,7 +180,7 @@
   height: 670px;
 }
 
-.about .image .overlay {
+.image .overlay {
   background-color: #f58a07;
   mix-blend-mode: multiply;
   height: 100%;
@@ -200,7 +194,6 @@
 }
 
 .about .text p {
-  width: 86%;
   margin-bottom: 48px;
 }
 
@@ -211,7 +204,7 @@
 }
 
 .about .text .about-features article {
-  width: 50%;
+  width: 49%;
 }
 
 .about .text .about-features article h2 {
@@ -232,7 +225,6 @@
 .about .container .text .about-features article p {
   font-size: 16px;
   line-height: 28px;
-  width: 100%;
   margin-bottom: 0;
 }
 
@@ -256,8 +248,7 @@
 
 .service .tabs {
   display: flex;
-  width: 50%;
-  justify-content: space-between;
+  gap: 24px;
   margin-bottom: 80px;
 }
 
@@ -277,12 +268,13 @@
 
 .service .content {
   display: flex;
-  justify-content: space-between;
+  gap: 140px;
+  align-items: center;
 }
 
 .service .content .text,
 .service .content .image {
-  width: 45%;
+  width: 49%;
 }
 
 .service .content .text h2 {
@@ -291,7 +283,6 @@
 
 .service .content .text p {
   margin-bottom: 40px;
-  width: 95%;
 }
 
 .service .content .text a {
@@ -305,7 +296,6 @@
 .service .content .text a::after {
   content: '\2192';
   margin-left: 8px;
-  font-size: 18px;
 }
 
 .service .content .image {
@@ -314,14 +304,6 @@
   background-size: cover;
   border-radius: 20px;
   height: 470px;
-}
-
-.service .content .image .overlay {
-  width: 25%;
-  height: 100%;
-  background-color: #f58a07;
-  mix-blend-mode: multiply;
-  border-radius: 20px 0 0 20px;
 }
 
 /* CTA Section Styles */

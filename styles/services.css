@@ -7,13 +7,13 @@
 
 .services-header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 46px;
 }
 
 .services-header .text,
 .services-header .image {
-  width: 50%;
+  width: 49%;
 }
 
 .services-header .text h2 {
@@ -24,7 +24,6 @@
 
 .services-header .text p {
   margin-bottom: 32px;
-  width: 90%;
 }
 
 .services-header .image {
@@ -35,7 +34,7 @@
   height: 650px;
 }
 
-.services-header .image .overlay {
+.image .overlay {
   background-color: #f58a07;
   width: 25%;
   height: 100%;
@@ -44,16 +43,21 @@
 }
 
 /* Service Feature Styles */
-.service-features article {
-  margin-bottom: 128px;
+.service-features .container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 128px;
+}
+
+.service-features article {
+  display: flex;
   align-items: center;
+  gap: 76px;
 }
 
 .service-features article .text,
 .service-features article .image {
-  width: 48%;
+  width: 49%;
 }
 
 .service-features article .image {
@@ -62,17 +66,9 @@
   position: relative;
 }
 
-.service-features article:last-child {
-  margin-bottom: 0;
-}
-
-.service-features article .text h2 {
-  margin-bottom: 24px;
-}
-
+.service-features article .text h2,
 .service-features article .text p {
   margin-bottom: 24px;
-  width: 90%;
 }
 
 .service-features article .text ul li {
@@ -82,54 +78,46 @@
   line-height: 28px;
 }
 
-.service-features article:nth-child(odd) .image .shape {
+.service-features article .image .shape {
   width: 95px;
   height: 97px;
   background-color: #f58a07;
   border-radius: 20px;
   position: absolute;
-  top: 128px;
-  left: -48px;
   mix-blend-mode: multiply;
 }
 
+.service-features article:nth-child(odd) .image .shape {
+  top: 128px;
+  left: -48px;
+}
+
 .service-features article:nth-child(even) .image .shape {
-  width: 95px;
-  height: 97px;
-  background-color: #f58a07;
-  border-radius: 20px;
-  position: absolute;
   top: 272px;
   right: -48px;
-  mix-blend-mode: multiply;
+}
+
+.service-features article .image {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .service-features article:first-child .image {
   background: url('../images/services-feature-1.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .service-features article:nth-child(2) .image {
   background: url('../images/services-feature-2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .service-features article:nth-child(3) .image {
   background: url('../images/services-feature-3.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .service-features article:nth-child(4) .image {
   background: url('../images/services-feature-4.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .service-features article:last-child .image {
   background: url('../images/services-feature-5.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }

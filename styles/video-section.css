@@ -4,30 +4,27 @@
 
 .video .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 110px;
 }
 
 .video .text,
 .video .image {
-  width: 47%;
+  width: 49%;
 }
 
 .video .text h2 {
   margin-bottom: 24px;
-  width: 90%;
 }
 
 .video .text p {
   margin-bottom: 40px;
-  width: 92%;
 }
 
 .profile {
   display: flex;
-  width: 40%;
-  justify-content: space-between;
   align-items: center;
+  gap: 24px;
 }
 
 .profile .profile-image {
@@ -36,13 +33,8 @@
   background: url('../images/video-profile.png');
 }
 
-.profile .titles {
-  width: 60%;
-}
-
 .profile .titles h4 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   font-size: 24px;
   font-weight: 500;
   color: #063255;
@@ -67,8 +59,7 @@
 .play-button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 27%;
+  gap: 17px;
 }
 
 .play-button h4 {

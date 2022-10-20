@@ -9,6 +9,12 @@ footer a {
   color: white;
 }
 
+footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
 footer .shape-1 {
   width: 53px;
   height: 287px;
@@ -33,11 +39,10 @@ footer .top {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-bottom: 80px;
 }
 
 footer .top .left {
-  width: 33%;
+  width: 30%;
 }
 
 footer .top .subscribe {
@@ -46,25 +51,28 @@ footer .top .subscribe {
 
 footer .top .company,
 footer .top .connect {
-  width: 18%;
+  width: 15%;
+}
+
+footer .top .left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 footer .top .left h3 {
   font-weight: 600;
-  margin-bottom: 32px;
 }
 
 footer .top .left h2 {
   font-size: 36px;
   line-height: 44px;
-  margin-bottom: 32px;
 }
 
 footer .top .left .socials {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 35%;
+  gap: 18px;
 }
 
 footer .top .left .socials img {
@@ -95,17 +103,25 @@ footer .top .connect ul li {
   font-weight: 500;
 }
 
+footer .top .subscribe .content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 footer .top .subscribe input {
-  width: 100%;
   border-radius: 31px;
   padding: 18px 32px;
-  margin-bottom: 16px;
 }
 
 footer .top .subscribe input::placeholder {
   color: #9c9c9c;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+}
+
+footer .primary-button {
+  align-self: start;
 }
 
 footer .bottom {
@@ -120,9 +136,8 @@ footer .bottom p {
 }
 
 footer .bottom ul {
-  width: 25%;
   display: flex;
-  justify-content: space-between;
+  gap: 32px;
 }
 
 footer .bottom ul li a:hover {

@@ -6,16 +6,13 @@
 
 .contact-header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 99px;
 }
 
-.contact-header .left {
-  width: 45%;
-}
-
+.contact-header .left,
 .contact-header .right {
-  width: 50%;
+  width: 49%;
 }
 
 .contact-header .left h2 {
@@ -25,13 +22,16 @@
 
 .contact-header .right {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 76px;
 }
 
-.contact-header .right .location,
 .contact-header .right .contact {
-  width: 45%;
+  width: 49%;
+}
+
+.contact-header .right .location {
+  width: 51%;
 }
 
 .contact-header .right h3 {
@@ -54,46 +54,49 @@
 
 .contact-section .container {
   display: flex;
-  justify-content: space-between;
+  gap: 55px;
 }
 
-.contact-section .container form {
-  width: 45%;
+.contact-section form,
+.contact-section .map {
+  width: 49%;
 }
 
-.contact-section .container .map {
-  width: 50%;
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.contact-section .container form input {
-  width: 100%;
+.contact-section form input {
   border: none;
   padding: 18px 32px;
-  margin-bottom: 16px;
   background-color: rgba(210, 218, 237, 0.17);
   border-radius: 27px;
 }
 
-.contact-section .container form textarea {
-  width: 100%;
+.contact-section form textarea {
   height: 160px;
   resize: none;
   padding: 32px;
   border: none;
   background-color: rgba(210, 218, 237, 0.17);
   border-radius: 27px;
-  margin-bottom: 32px;
 }
 
-.contact-section .container form input::placeholder,
-.contact-section .container form textarea::placeholder {
+.contact-section form input::placeholder,
+.contact-section form textarea::placeholder {
   color: #9c9c9c;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   line-height: 19px;
 }
 
-.contact-section .container .map img {
+.contact-section .primary-button {
+  align-self: start;
+}
+
+.contact-section .map img {
   width: 100%;
   border-radius: 20px;
   height: 370px;

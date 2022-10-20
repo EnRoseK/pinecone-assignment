@@ -6,12 +6,13 @@
 
 .careers-header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 46px;
 }
 
-.careers-header .text {
-  width: 50%;
+.careers-header .text,
+.careers-header .image {
+  width: 49%;
 }
 
 .careers-header .text h2 {
@@ -25,7 +26,6 @@
 }
 
 .careers-header .image {
-  width: 47%;
   height: 650px;
   background: url('../images/career-header.png');
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@
   background-position: center;
 }
 
-.careers-header .image .overlay {
+.image .overlay {
   width: 25%;
   height: 100%;
   background-color: #f58a07;
@@ -52,7 +52,6 @@
 }
 
 .careers .positions {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
