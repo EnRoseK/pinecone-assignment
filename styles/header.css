@@ -39,13 +39,23 @@ header nav ul li a {
   color: #394149;
 }
 
+header nav ul li a:hover {
+  color: #f58a07;
+}
+
+header nav ul li .active {
+  color: #f58a07;
+}
+
 header nav .nav-button {
   background-color: rgba(245, 138, 7, 0.1);
   padding: 15px 25px;
   border-radius: 30px;
-}
-
-header nav .nav-button a {
   font-weight: 600;
   color: #f58a07;
+}
+
+header nav .nav-button:hover {
+  color: white;
+  background-color: #f58a07;
 }

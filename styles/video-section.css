@@ -33,7 +33,7 @@
 .profile .profile-image {
   width: 80px;
   height: 80px;
-  background: url("../images/video-profile.png");
+  background: url('../images/video-profile.png');
 }
 
 .profile .titles {
@@ -54,7 +54,7 @@
 }
 
 .video .image {
-  background: url("../images/video-image.png");
+  background: url('../images/video-image.png');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -68,14 +68,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 26%;
+  width: 27%;
 }
 
 .play-button h4 {
   color: white;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .play-icon {
@@ -86,9 +86,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.play-icon img {
-  width: 17px;
-  height: 17px;
 }

@@ -27,7 +27,7 @@
 .careers-header .image {
   width: 47%;
   height: 650px;
-  background: url("../images/career-header.png");
+  background: url('../images/career-header.png');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -79,4 +79,8 @@
   font-size: 18px;
   font-weight: 400;
   color: #f58a07;
+}
+
+.careers .positions article a:hover {
+  color: #1d3444;
 }

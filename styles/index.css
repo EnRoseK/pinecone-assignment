@@ -34,10 +34,11 @@
 
 .bg-button {
   padding: 18px 32px;
+  font-weight: 600;
 }
 
-.bg-button a {
-  font-weight: 600;
+.bg-button:hover {
+  color: #f58a07;
 }
 
 .hero .content .logos p {
@@ -106,8 +107,12 @@
   color: #f58a07;
 }
 
+.help .articles article a:hover {
+  color: #1d3444;
+}
+
 .help .articles article a::after {
-  content: "\2192";
+  content: '\2192';
   margin-left: 8px;
 }
 
@@ -174,7 +179,7 @@
 }
 
 .about .image {
-  background: url("../images/about-image.png");
+  background: url('../images/about-image.png');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -212,7 +217,7 @@
 .about .text .about-features article h2 {
   margin-bottom: 16px;
   margin-top: 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 50px;
@@ -239,8 +244,8 @@
 
 .service .ribbon {
   position: absolute;
-  top: 112px;
-  right: 455px;
+  top: 114px;
+  right: 114px;
 }
 
 .service .container {
@@ -293,18 +298,22 @@
   color: #f58a07;
 }
 
+.service .content .text a:hover {
+  color: #1d3444;
+}
+
 .service .content .text a::after {
-  content: "\2192";
+  content: '\2192';
   margin-left: 8px;
   font-size: 18px;
 }
 
 .service .content .image {
-  background: url("../images/team.png");
+  background: url('../images/team.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 472px;
   border-radius: 20px;
+  height: 470px;
 }
 
 .service .content .image .overlay {
@@ -318,24 +327,32 @@
 /* CTA Section Styles */
 .cta {
   display: flex;
+  height: 520px;
 }
 
 .cta .image {
   width: 50%;
-  background: url("../images/experience-image.png");
+  background: url('../images/experience-image.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 525px;
 }
 
 .cta .text {
   width: 50%;
-  padding: 128px;
   background-color: #f58a07;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 128px;
 }
 
 .cta .text h2 {
   margin-bottom: 40px;
   color: white;
   width: 95%;
+}
+
+.cta .text a {
+  align-self: start;
 }

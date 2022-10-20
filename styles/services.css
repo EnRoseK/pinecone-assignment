@@ -28,11 +28,11 @@
 }
 
 .services-header .image {
-  background: url("../images/services-header.png");
+  background: url('../images/services-header.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 650px;
   border-radius: 20px;
+  height: 650px;
 }
 
 .services-header .image .overlay {
@@ -105,31 +105,31 @@
 }
 
 .service-features article:first-child .image {
-  background: url("../images/services-feature-1.png");
+  background: url('../images/services-feature-1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .service-features article:nth-child(2) .image {
-  background: url("../images/services-feature-2.png");
+  background: url('../images/services-feature-2.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .service-features article:nth-child(3) .image {
-  background: url("../images/services-feature-3.png");
+  background: url('../images/services-feature-3.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .service-features article:nth-child(4) .image {
-  background: url("../images/services-feature-4.png");
+  background: url('../images/services-feature-4.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .service-features article:last-child .image {
-  background: url("../images/services-feature-5.png");
+  background: url('../images/services-feature-5.png');
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -60,10 +60,16 @@ footer .top .left h2 {
   margin-bottom: 32px;
 }
 
+footer .top .left .socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+
 footer .top .left .socials img {
   width: 20px;
   height: 20px;
-  margin-right: 18px;
 }
 
 footer .top .company h3,
@@ -74,14 +80,15 @@ footer .top .subscribe h3 {
   font-weight: 600;
 }
 
-footer .top .company ul li,
-footer .top .connect ul li {
-  margin-bottom: 16px;
+footer .top .company ul,
+footer .top .connect ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-footer .top .company ul li:last-child,
-footer .top .connect ul li:last-child {
-  margin-bottom: 0;
+footer .top .company ul li a:hover {
+  color: #f58a07;
 }
 
 footer .top .connect ul li {
@@ -97,7 +104,7 @@ footer .top .subscribe input {
 
 footer .top .subscribe input::placeholder {
   color: #9c9c9c;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
 }
 
@@ -116,4 +123,8 @@ footer .bottom ul {
   width: 25%;
   display: flex;
   justify-content: space-between;
+}
+
+footer .bottom ul li a:hover {
+  color: #f58a07;
 }
