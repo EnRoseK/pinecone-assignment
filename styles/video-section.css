@@ -17,14 +17,11 @@
   margin-bottom: 24px;
 }
 
-.video .text p {
-  margin-bottom: 40px;
-}
-
 .profile {
   display: flex;
   align-items: center;
   gap: 24px;
+  margin-top: 40px;
 }
 
 .profile .profile-image {
@@ -33,15 +30,12 @@
   background: url('../images/video-profile.png');
 }
 
-.profile .titles h4 {
-  margin: 0;
-  font-size: 24px;
-  font-weight: 500;
+.profile .titles h3 {
+  line-height: normal;
   color: #063255;
 }
 
 .profile .titles p {
-  margin-bottom: 0;
   color: #f58a07;
 }
 

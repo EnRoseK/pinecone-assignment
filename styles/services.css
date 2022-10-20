@@ -16,10 +16,8 @@
   width: 49%;
 }
 
-.services-header .text h2 {
+.services-header .text h1 {
   margin-bottom: 24px;
-  font-size: 64px;
-  line-height: 72px;
 }
 
 .services-header .text p {
