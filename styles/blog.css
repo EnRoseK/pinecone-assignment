@@ -1,26 +1,25 @@
 /* Blog Header Styles */
 .blog-header {
   padding: 128px 0;
+  height: 750px;
   background: #dceaf5;
 }
 
 .blog-header .container {
   display: flex;
   align-items: center;
-  gap: 102px;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .blog-header .text,
 .blog-header .image {
-  width: 49%;
+  width: 45%;
 }
 
-.blog-header .text h1 {
-  margin-bottom: 24px;
-}
-
-.blog-header .text p {
-  margin-bottom: 24px;
+.blog-header .text {
+  height: 100%;
+  justify-content: space-around;
 }
 
 .blog-header .text a {
@@ -32,13 +31,13 @@
 }
 
 .blog-header .text a::after {
-  content: '\2192';
+  content: "\2192";
   margin-left: 8px;
 }
 
 .blog-header .image {
   height: 495px;
-  background: url('../images/blog-head.png');
+  background: url("../images/blog-head.png");
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -48,8 +47,10 @@
 .blog-section {
   padding: 128px 0;
   background-color: white;
+  height: 1174px;
 }
 
 .blog-section .articles article {
   background-color: #edf7ff;
+  height: 45%;
 }

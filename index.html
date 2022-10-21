@@ -32,13 +32,15 @@
 
     <section class="hero">
       <div class="container">
-        <div class="content">
-          <h1>Prosper with our bespoke solutions</h1>
+        <div class="content flex-col">
+          <div class="titles">
+            <h1>Prosper with our bespoke solutions</h1>
 
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            voluptas, cupiditate quo possimus similique obcaecati.
-          </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              voluptas, cupiditate quo possimus similique obcaecati.
+            </p>
+          </div>
 
           <div class="buttons">
             <a class="primary-button" href="./services.html"
@@ -47,7 +49,7 @@
             <a class="bg-button" href="./services.html">See All Services</a>
           </div>
 
-          <div class="logos">
+          <div class="logos flex-col">
             <p>Worked with 100+ Companies</p>
             <div class="logo-imgs">
               <img src="./images/haeder-logo-1.svg" alt="Logo 1" />
@@ -56,49 +58,58 @@
             </div>
           </div>
         </div>
-
-        <img src="./images/header-image.png" alt="Hero Image" />
+        <div class="image">
+          <img src="./images/header-image.png" alt="Hero Image" />
+        </div>
       </div>
     </section>
 
     <section class="help">
-      <div class="container">
-        <h2>We help more than 1500 companies from all sectors</h2>
-        <p class="title-paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit
-          amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo
-          suscipit tellus et pellentesque.
-        </p>
+      <div class="container flex-col">
+        <div class="titles flex-col">
+          <h2>We help more than 1500 companies from all sectors</h2>
+          <p class="title-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus
+            commodo suscipit tellus et pellentesque.
+          </p>
+        </div>
 
         <div class="articles">
-          <article>
+          <article class="flex-col">
             <img src="./images/post1.png" alt="Help 1" />
-            <h3>Business strategy</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              sit amet eros blandit, hendrerit elit et,
-            </p>
-            <a href="./services.html">Learn More</a>
+            <div class="content flex-col">
+              <h3>Business strategy</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+              <a href="./services.html">Learn More</a>
+            </div>
           </article>
 
-          <article>
+          <article class="flex-col">
             <img src="./images/post-2.png" alt="Help 2" />
-            <h3>Digitalization</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              sit amet eros blandit, hendrerit elit et,
-            </p>
-            <a href="./services.html">Learn More</a>
+            <div class="content flex-col">
+              <h3>Digitalization</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+              <a href="./services.html">Learn More</a>
+            </div>
           </article>
 
-          <article>
+          <article class="flex-col">
             <img src="./images/post-3.png" alt="Help 3" />
-            <h3>Risk assessment</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              sit amet eros blandit, hendrerit elit et,
-            </p>
-            <a href="./services.html">Learn More</a>
+            <div class="content flex-col">
+              <h3>Risk assessment</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+              <a href="./services.html">Learn More</a>
+            </div>
           </article>
         </div>
       </div>
@@ -119,7 +130,7 @@
         </div>
 
         <div class="feature-cards">
-          <div class="card">
+          <div class="card flex-col">
             <img src="./images/Icon-layer.png" alt="Layer" />
             <h3>Invoicing</h3>
             <p>
@@ -128,7 +139,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card flex-col">
             <img src="./images/Icon-wizard.png" alt="Wizard" />
             <h3>Support</h3>
             <p>
@@ -137,7 +148,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card flex-col">
             <img src="./images/Icon-heart.png" alt="Heart" />
             <h3>Surveying</h3>
             <p>
@@ -151,7 +162,7 @@
 
     <section class="about">
       <div class="container">
-        <div class="text">
+        <div class="text flex-col">
           <h2>
             The energy of a start-up combined with 30 years of experience.
           </h2>
@@ -162,7 +173,7 @@
           </p>
 
           <div class="about-features">
-            <article>
+            <article class="flex-col">
               <h2>15+</h2>
               <h3>Awards recieved</h3>
               <p>
@@ -171,7 +182,7 @@
               </p>
             </article>
 
-            <article>
+            <article class="flex-col">
               <h2>500+</h2>
               <h3>Clients served</h3>
               <p>
@@ -187,42 +198,38 @@
       </div>
     </section>
 
-    <section class="service">
+    <section class="service container">
       <div class="ribbon">
         <img src="./images/Ribbon.png" alt="Ribbon" />
       </div>
-      <div class="container">
-        <div class="tabs">
-          <div class="tab active">Business Strategy</div>
-          <div class="tab">Digitalization</div>
-          <div class="tab">Risk Assesment</div>
+      <div class="tabs">
+        <div class="tab active">Business Strategy</div>
+        <div class="tab">Digitalization</div>
+        <div class="tab">Risk Assesment</div>
+      </div>
+      <div class="content">
+        <div class="text flex-col">
+          <h2>Helping clients with research and strategy for their business</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus
+            commodo suscipit tellus et pellentesque.
+          </p>
+          <p>
+            Mattis purus. Vivamus commodo suscipit tellus et pellent. Curabitur
+            sit amet eros blan esque.
+          </p>
+          <a href="./services.html">See all services</a>
         </div>
-        <div class="content">
-          <div class="text">
-            <h2>
-              Helping clients with research and strategy for their business
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus
-              commodo suscipit tellus et pellentesque.
-            </p>
-            <p>
-              Mattis purus. Vivamus commodo suscipit tellus et pellent.
-              Curabitur sit amet eros blan esque.
-            </p>
-            <a href="./services.html">See all services</a>
-          </div>
-          <div class="image">
-            <div class="overlay"></div>
-          </div>
+        <div class="image">
+          <div class="overlay"></div>
         </div>
       </div>
     </section>
 
     <section class="cta">
       <div class="image"></div>
-      <div class="text">
+      <div class="text flex-col">
         <h2>Energy of a start-up combined with 30 years of experience.</h2>
         <a class="secondary-button" href="./careers.html">See Job Vacancies</a>
       </div>
@@ -230,7 +237,7 @@
 
     <section class="video">
       <div class="container">
-        <div class="text">
+        <div class="text flex-col">
           <h2>Finsweet Was A Dream To Work With</h2>
           <p>
             Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel.
@@ -259,13 +266,12 @@
     </section>
 
     <section class="blog-section">
-      <div class="container">
+      <div class="container flex-col">
         <h2>Latest Blog & News</h2>
-
         <div class="articles">
-          <article>
+          <article class="flex-col">
             <img src="./images/post1.png" alt="Post 1" />
-            <div class="content">
+            <div class="content flex-col">
               <h3>Why you have to digitalize in 2021</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -275,9 +281,9 @@
             </div>
           </article>
 
-          <article>
-            <img src="./images/post-2.png" alt="Post 2" />
-            <div class="content">
+          <article class="flex-col">
+            <img src="./images/post-2.png" alt="Post 1" />
+            <div class="content flex-col">
               <h3>Our internal process and longerm vision</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -287,9 +293,9 @@
             </div>
           </article>
 
-          <article>
-            <img src="./images/post-3.png" alt="Post 3" />
-            <div class="content">
+          <article class="flex-col">
+            <img src="./images/post-3.png" alt="Post 1" />
+            <div class="content flex-col">
               <h3>Helping the next generation of leaders</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -306,9 +312,9 @@
       <div class="shape-1"></div>
       <div class="shape-2"></div>
 
-      <div class="container">
+      <div class="container flex-col">
         <div class="top">
-          <div class="left">
+          <div class="left flex-col">
             <h3>{finsweet</h3>
             <h2>Bespoke software solutions</h2>
             <div class="socials">
@@ -327,9 +333,9 @@
             </div>
           </div>
 
-          <div class="company">
+          <div class="company flex-col">
             <h3>Company</h3>
-            <ul>
+            <ul class="flex-col">
               <li><a href="#">About Us</a></li>
               <li><a href="./careers.html">Careers</a></li>
               <li><a href="./services.html">Services</a></li>
@@ -337,17 +343,17 @@
             </ul>
           </div>
 
-          <div class="connect">
+          <div class="connect flex-col">
             <h3>Connect</h3>
-            <ul>
+            <ul class="flex-col">
               <li>hi@finsweet.com</li>
               <li>+(123) 456-7890</li>
             </ul>
           </div>
 
-          <div class="subscribe">
+          <div class="subscribe flex-col">
             <h3>Join Newsletter</h3>
-            <div class="content">
+            <div class="content flex-col">
               <input
                 type="email"
                 name="email"

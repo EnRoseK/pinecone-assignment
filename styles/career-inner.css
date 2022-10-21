@@ -10,7 +10,7 @@
 
 .career-header .job-desc {
   display: flex;
-  gap: 284px;
+  column-gap: 284px;
 }
 
 .career-header .job-desc .job-left {
@@ -32,14 +32,14 @@
   border-radius: 20px;
   padding: 68px;
   display: flex;
-  gap: 92px;
+  column-gap: 92px;
 }
 
 .career-details ul {
   width: 20%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  row-gap: 40px;
 }
 
 .career-details ul li {
@@ -90,7 +90,7 @@
 .apply form input::placeholder,
 .apply form textarea::placeholder {
   color: #9c9c9c;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
 }
 

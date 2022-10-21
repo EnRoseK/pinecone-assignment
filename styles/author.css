@@ -1,21 +1,20 @@
 .author {
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
-  gap: 24px;
+  column-gap: 24px;
 }
 
 .author .author-info {
   display: flex;
   align-items: center;
-  gap: 8px;
+  column-gap: 8px;
 }
 
 .author .author-info .author-image {
   width: 32px;
   height: 32px;
   border-radius: 100%;
-  background: url('../images/author.png');
+  background: url("../images/author.png");
 }
 
 .author h4 {

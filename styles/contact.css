@@ -7,23 +7,18 @@
 .contact-header .container {
   display: flex;
   align-items: center;
-  gap: 99px;
+  justify-content: space-between;
 }
 
 .contact-header .left,
 .contact-header .right {
-  width: 49%;
-}
-
-.contact-header .left h2 {
-  margin-bottom: 24px;
-  line-height: 64px;
+  width: 45%;
 }
 
 .contact-header .right {
   display: flex;
   align-items: center;
-  gap: 76px;
+  column-gap: 76px;
 }
 
 .contact-header .right .contact {
@@ -39,12 +34,17 @@
   color: #0d1317;
 }
 
+.contact-header .right ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
 .contact-header .right ul li {
   color: #5b5b5b;
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
-  margin-bottom: 4px;
 }
 
 /* Contact Section Styles */
@@ -54,7 +54,7 @@
 
 .contact-section .container {
   display: flex;
-  gap: 55px;
+  column-gap: 55px;
 }
 
 .contact-section form,
@@ -65,7 +65,7 @@
 .contact-section form {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  row-gap: 16px;
 }
 
 .contact-section form input {
@@ -87,7 +87,7 @@
 .contact-section form input::placeholder,
 .contact-section form textarea::placeholder {
   color: #9c9c9c;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 19px;
 }

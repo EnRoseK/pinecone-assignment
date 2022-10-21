@@ -7,25 +7,27 @@
 .careers-header .container {
   display: flex;
   align-items: center;
-  gap: 46px;
+  justify-content: space-between;
+  height: 650px;
 }
 
 .careers-header .text,
 .careers-header .image {
-  width: 49%;
+  width: 45%;
 }
 
-.careers-header .text h1 {
-  margin-bottom: 24px;
+.careers-header .text {
+  height: 90%;
+  justify-content: space-evenly;
 }
 
-.careers-header .text p {
-  margin-bottom: 24px;
+.careers-header .text a {
+  align-self: flex-start;
 }
 
 .careers-header .image {
   height: 650px;
-  background: url('../images/career-header.png');
+  background: url("../images/career-header.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -45,21 +47,28 @@
   padding-bottom: 128px;
 }
 
-.careers h2 {
-  margin-bottom: 64px;
+.careers .container {
+  height: 522px;
 }
 
 .careers .positions {
+  height: 80%;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  justify-content: space-between;
+  align-content: space-around;
 }
 
 .careers .positions article {
-  width: 31%;
+  max-width: 31%;
+  min-width: 400px;
   background-color: rgba(193, 228, 255, 0.3);
   border-radius: 20px;
   padding: 32px 40px;
+}
+
+.careers .positions article:last-child {
+  background-color: white;
 }
 
 .careers .positions article h3 {

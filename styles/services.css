@@ -8,24 +8,26 @@
 .services-header .container {
   display: flex;
   align-items: center;
-  gap: 46px;
+  justify-content: space-between;
+  height: 650px;
 }
 
 .services-header .text,
 .services-header .image {
-  width: 49%;
+  width: 45%;
 }
 
-.services-header .text h1 {
-  margin-bottom: 24px;
+.services-header .text {
+  height: 80%;
+  justify-content: space-evenly;
 }
 
-.services-header .text p {
-  margin-bottom: 32px;
+.services-header .primary-button {
+  align-self: start;
 }
 
 .services-header .image {
-  background: url('../images/services-header.png');
+  background: url("../images/services-header.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -42,20 +44,23 @@
 
 /* Service Feature Styles */
 .service-features .container {
-  display: flex;
-  flex-direction: column;
-  gap: 128px;
+  height: 3263px;
 }
 
 .service-features article {
   display: flex;
   align-items: center;
-  gap: 76px;
+  justify-content: space-between;
 }
 
 .service-features article .text,
 .service-features article .image {
-  width: 49%;
+  width: 45%;
+}
+
+.service-features article .text {
+  height: 70%;
+  justify-content: space-evenly;
 }
 
 .service-features article .image {
@@ -64,13 +69,11 @@
   position: relative;
 }
 
-.service-features article .text h2,
-.service-features article .text p {
-  margin-bottom: 24px;
+.service-features article .text ul {
+  height: 25%;
 }
 
 .service-features article .text ul li {
-  margin-bottom: 8px;
   color: #5b5b5b;
   font-weight: 500;
   line-height: 28px;
@@ -101,21 +104,21 @@
 }
 
 .service-features article:first-child .image {
-  background: url('../images/services-feature-1.png');
+  background: url("../images/services-feature-1.png");
 }
 
 .service-features article:nth-child(2) .image {
-  background: url('../images/services-feature-2.png');
+  background: url("../images/services-feature-2.png");
 }
 
 .service-features article:nth-child(3) .image {
-  background: url('../images/services-feature-3.png');
+  background: url("../images/services-feature-3.png");
 }
 
 .service-features article:nth-child(4) .image {
-  background: url('../images/services-feature-4.png');
+  background: url("../images/services-feature-4.png");
 }
 
 .service-features article:last-child .image {
-  background: url('../images/services-feature-5.png');
+  background: url("../images/services-feature-5.png");
 }
