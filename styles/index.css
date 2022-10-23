@@ -72,12 +72,9 @@
 
 /* Help Section Styles */
 .help {
-  padding: 96px 0;
-}
-
-.help .container {
-  justify-content: space-evenly;
   height: 740px;
+  margin: 96px auto;
+  justify-content: space-evenly;
 }
 
 .help .titles {
@@ -187,10 +184,7 @@
 
 /* About Section Styles */
 .about {
-  padding-top: 96px;
-}
-
-.about .container {
+  margin-top: 96px;
   display: flex;
   align-items: center;
   justify-content: space-between;

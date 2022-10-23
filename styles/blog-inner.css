@@ -1,5 +1,10 @@
 .blog-inner {
   margin: 110px 0;
+  height: 2055px;
+}
+
+.blog-inner .container {
+  height: 100%;
 }
 
 .blog-inner img {
@@ -9,24 +14,19 @@
 
 .blog-inner .content {
   padding: 0 264px;
-}
-
-.blog-inner .content h1 {
-  margin-top: 24px;
-  margin-bottom: 32px;
+  height: 67%;
+  justify-content: space-evenly;
 }
 
 .blog-inner .content h2 {
-  margin: 24px 0;
   color: #0d1317;
 }
 
 .blog-inner .content p {
-  margin-bottom: 24px;
   font-size: 16px;
   line-height: 28px;
 }
 
 .author {
-  margin-top: 80px;
+  width: 57%;
 }

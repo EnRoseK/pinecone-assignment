@@ -1,12 +1,9 @@
 .video {
-  padding: 128px 0;
-}
-
-.video .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 500px;
+  margin: 128px auto;
 }
 
 .video .text,
@@ -29,7 +26,7 @@
 .profile .profile-image {
   width: 80px;
   height: 80px;
-  background: url("../images/video-profile.png");
+  background: url('../images/video-profile.png');
 }
 
 .profile .titles h3 {
@@ -42,7 +39,7 @@
 }
 
 .video .image {
-  background: url("../images/video-image.png");
+  background: url('../images/video-image.png');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -71,7 +68,7 @@
   color: white;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .play-icon {

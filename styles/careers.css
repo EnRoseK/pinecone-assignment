@@ -1,10 +1,7 @@
 /* Header Section Styles */
 .careers-header {
-  padding-top: 110px;
-  padding-bottom: 127px;
-}
-
-.careers-header .container {
+  margin-top: 110px;
+  margin-bottom: 127px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,7 +24,7 @@
 
 .careers-header .image {
   height: 650px;
-  background: url("../images/career-header.png");
+  background: url('../images/career-header.png');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -44,10 +41,7 @@
 
 /* Careers Section Styles */
 .careers {
-  padding-bottom: 128px;
-}
-
-.careers .container {
+  margin-bottom: 128px;
   height: 522px;
 }
 

@@ -46,15 +46,15 @@
 /* Blog Section Styles */
 .blog-section {
   background-color: white;
-  padding: 128px 0;
+  margin: 128px auto;
   height: 1430px;
 }
 
-.blog-section .container h2 {
+.blog-section h2 {
   height: 10%;
 }
 
-.blog-section .container .articles {
+.blog-section .articles {
   height: 90%;
   align-content: space-between;
 }
