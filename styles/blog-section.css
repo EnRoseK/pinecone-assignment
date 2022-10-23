@@ -1,55 +1,60 @@
 .blog-section {
-  background-color: #dceaf5;
-  padding: 96px 0;
   height: 820px;
+  padding: 96px 0;
+  background: #dceaf5;
 }
 
 .blog-section .container {
   height: 100%;
 }
 
+.blog-section h2 {
+  height: 10%;
+  color: #0d1317;
+}
+
 .blog-section .articles {
+  height: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 85%;
 }
 
-.blog-section .articles article {
+.blog-section article {
   max-width: 30%;
   min-width: 200px;
-  height: 100%;
   background-color: white;
   border-radius: 20px;
 }
 
-.blog-section .articles .content {
-  padding: 32px;
-  height: 60%;
-}
-
-.blog-section .articles img {
+.blog-section article img {
   border-radius: 20px 20px 0 0;
+  width: 100%;
 }
 
-.blog-section .articles h3 {
+.blog-section article .content {
+  height: 55%;
+  padding: 32px;
+  justify-content: space-around;
+}
+
+.blog-section article .content h3 {
   color: #0d1317;
 }
 
-.blog-section .articles p {
+.blog-section article .content p {
   font-size: 16px;
   line-height: 28px;
 }
 
-.blog-section .articles a {
+.blog-section article .content a {
   color: #f58a07;
 }
 
-.blog-section .articles a:hover {
+.blog-section article .content a:hover {
   color: #1d3444;
 }
-
-.blog-section .articles a::after {
-  content: "\2192";
+.blog-section article .content a::after {
+  content: '\2192';
   margin-left: 8px;
 }

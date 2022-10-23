@@ -31,13 +31,13 @@
 }
 
 .blog-header .text a::after {
-  content: "\2192";
+  content: '\2192';
   margin-left: 8px;
 }
 
 .blog-header .image {
   height: 495px;
-  background: url("../images/blog-head.png");
+  background: url('../images/blog-head.png');
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -45,12 +45,21 @@
 
 /* Blog Section Styles */
 .blog-section {
-  padding: 128px 0;
   background-color: white;
-  height: 1174px;
+  padding: 128px 0;
+  height: 1430px;
+}
+
+.blog-section .container h2 {
+  height: 10%;
+}
+
+.blog-section .container .articles {
+  height: 90%;
+  align-content: space-between;
 }
 
 .blog-section .articles article {
   background-color: #edf7ff;
-  height: 45%;
+  height: 47%;
 }
