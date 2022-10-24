@@ -82,6 +82,10 @@
   justify-content: space-between;
 }
 
+.help .titles h2 {
+  color: #1d3444;
+}
+
 .help .articles {
   display: flex;
   justify-content: space-between;

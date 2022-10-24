@@ -10,7 +10,6 @@
 
 .blog-section h2 {
   height: 10%;
-  color: #0d1317;
 }
 
 .blog-section .articles {
@@ -25,6 +24,10 @@
   min-width: 200px;
   background-color: white;
   border-radius: 20px;
+}
+
+.blog-section article:hover {
+  background-color: #edf7ff;
 }
 
 .blog-section article img {
@@ -55,6 +58,6 @@
   color: #1d3444;
 }
 .blog-section article .content a::after {
-  content: '\2192';
+  content: "\2192";
   margin-left: 8px;
 }

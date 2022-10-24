@@ -13,6 +13,10 @@
   height: 100%;
 }
 
+.contact-header .left h2 {
+  color: #1d3444;
+}
+
 .contact-header .right {
   display: flex;
   justify-content: space-between;

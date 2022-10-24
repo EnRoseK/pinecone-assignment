@@ -52,6 +52,7 @@ footer .top .left {
 footer .top .left h2 {
   font-size: 36px;
   line-height: 44px;
+  color: white;
 }
 
 footer .top .left h3 {
@@ -125,7 +126,7 @@ footer .top .subscribe input {
 
 footer .top .subscribe input::placeholder {
   color: #9c9c9c;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
 }
 
