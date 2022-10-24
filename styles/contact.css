@@ -83,7 +83,7 @@
 .contact-section form input::placeholder,
 .contact-section form textarea::placeholder {
   color: #9c9c9c;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 19px;
 }
@@ -92,7 +92,7 @@
   align-self: start;
 }
 
-.contact-section .map img {
+.contact-section .map iframe {
   width: 100%;
   border-radius: 20px;
   height: 370px;
