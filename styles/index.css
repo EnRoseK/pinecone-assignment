@@ -225,11 +225,11 @@
   justify-content: space-between;
 }
 
-.about .text .about-features article {
+.about .text .about-feature {
   width: 46%;
 }
 
-.about .text .about-features article h2 {
+.about .text .about-feature h2 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -237,11 +237,11 @@
   color: #f58a07;
 }
 
-.about .text .about-features article h3 {
+.about .text .about-feature h3 {
   font-weight: 600;
 }
 
-.about .container .text .about-features article p {
+.about .container .text .about-feature p {
   font-size: 16px;
   line-height: 28px;
 }
